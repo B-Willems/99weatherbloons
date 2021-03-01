@@ -1,0 +1,38 @@
+LoRa 868Mhz
+humidity/temp: 		https://eu.mouser.com/ProductDetail/Texas-Instruments/HDC2022DEPR/?qs=sGAEpiMZZMu2rInN%2FZRmFkkq%2Fqtywxsm0cAx%2FViQPgHtSLw7b717nQ%3D%3D
+			https://eu.mouser.com/ProductDetail/Bosch-Sensortec/BME280/?qs=2OnyuXx6vpj2fK9HX7qb3g%3D%3D
+
+Altitude:		https://github.com/MikroElektronika/GPS_3_click/blob/master/example/c/AVR/Click_GPS3_AVR.c
+
+GPS:			https://eu.mouser.com/datasheet/2/1052/Quectel_L70-R_GPS_Specification_V2.2-1829911.pdf
+			https://eu.mouser.com/datasheet/2/1052/Quectel_L80-R_GPS_Specification_V1.2-1830014.pdf
+
+LoRa module:		
+	
+Microcontroller:	
+
+
+GOALS 99WeatherBloons
+------------------------------------
+1: HOGE TOREN
+
+2: LoRa communication over >10km
+3: collect data on high altitude balloon
+	a: Temp
+	b: Humidity
+	c: Altitude
+	d: GPS (Wind direction in post processing)
+	e: (extention) Take a picture on high altitude.
+4: Send data over LoRa To Raspberry pi ON A HIGH TOWER!!!!	
+5: Make project open source.
+6: Cheap and for everyone!!!
+
+
+ROADBLOCKS
+----------------------------------
+Can't talk at same time as other ppl 				==> cashe & send
+Getting tower permission					==> Watertower is goal, other high tower is possible. Prefferably with power
+GPS can lose connection at a certain altitude			==> ????
+Knalgas can't buy so have to make. 				==> electrolisis
+Parachute?							==> ????
+What microcontroller should we use?
